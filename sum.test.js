@@ -36,3 +36,7 @@ test('Verify student Name,Age,Gender',()=>{
     "Gender": "Male"
   });
 })
+
+test('Verify student Name is not equal to Age',()=>{
+  expect(student['Student Name']).not.toEqual(student['Age']);
+})
